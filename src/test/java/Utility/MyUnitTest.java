@@ -1,3 +1,8 @@
+/*
+This comment is for Testing purpose
+ */
+
+
 package Utility;
 //import org.junit.Test;
 import org.openqa.selenium.Alert;
@@ -44,12 +49,6 @@ public class MyUnitTest {
         //driver.wait(30);
         //driver.findElement(By.id("gsc-i-id1")).submit();
         driver.findElement(By.id("gsc-i-id1")).sendKeys(Keys.ENTER);
-
-
-
-
-
-
 
         WebDriverWait wait2 = new WebDriverWait(driver, 10);
         wait2.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"___gcse_0\"]/div/div/div[1]/div[1]")));
